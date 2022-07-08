@@ -1,0 +1,43 @@
+@import "reset.css";
+
+body {
+  background-color: rgba(200, 200, 200, 0.2);
+}
+
+header {
+  background-color: #fff;
+  padding: 20px;
+  position: fixed;
+  min-width: 100vw;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  box-sizing: border-box;
+}
+
+nav {
+  max-width: 1024px;
+  min-width: 1024px;
+  margin: 0 auto;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 700;
+}
+
+.title {
+  color: rgb(255, 146, 51);
+  font-size: 60px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 40px;
+  text-shadow: 4px 4px 4px rgb(208, 109, 22);
+  text-align: end;
+}
+
+#main-container {
+  max-width: 1024px;
+  min-width: 1024px;
+  margin: 0 auto;
+  min-height: 200vh;
+  padding-top: 80px;
+}
