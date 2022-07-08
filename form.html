@@ -9,10 +9,33 @@
   <body>
     <h1>form</h1>
     <a href="./index.html">home</a>
-    <form>
-      <input type="text" placeholder="아이디" autocomplete="off" />
-      <input type="password" placeholder="비밀번호" autocapitalize="off" />
+    <form style="display: flex; flex-direction: column; width: 320px">
+      <input
+        type="text"
+        placeholder="아이디"
+        autocomplete="off"
+        autofocus
+        required
+      />
+      <input
+        type="password"
+        placeholder="비밀번호"
+        autocapitalize="off"
+        required
+      />
+      <input type="file" />
       <input type="submit" value="로그인" />
+      <button type="submit">로그인</button>
+
+      <textarea>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae dolore totam dolor et in impedit deserunt neque numquam accusantium distinctio quia porro dignissimos, ratione, necessitatibus, culpa quis nostrum saepe ipsum?
+      </textarea>
+      <select>
+        <option value="값1">내용1</option>
+        <option value="값2">내용2</option>
+        <option value="값3">내용3</option>
+        <option value="값4">내용4</option>
+      </select>
     </form>
     <div
       style="
