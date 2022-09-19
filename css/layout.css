@@ -1,0 +1,60 @@
+body {
+  background-color: rgb(240, 240, 240);
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.main_layout {
+  max-width: 1200px;
+  display: grid;
+  grid-template-rows: auto 1fr 1fr 100px;
+}
+
+img {
+  max-width: 100%;
+}
+
+header {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+nav {
+  align-self: flex-end;
+}
+
+.main_contents {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.main_contents_item {
+  display: flex;
+}
+
+.main_contents_image > ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+footer {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+#bottomMenu {
+  display: grid;
+}
+
+#bottomMenu > ul {
+  display: flex;
+}
+
+#sns {
+  justify-self: end;
+}
+
+#sns > ul {
+  display: flex;
+}
